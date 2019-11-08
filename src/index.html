@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+        <meta name="copyright" content="copyright © 1998-2019, Sports.ru">
+        <title>Какой Клопп твой?</title>
+        <meta name="description" content="Игра Sports.ru">
+        <meta name="title" content="Какой Клопп твой?">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="ru_RU">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(() => {
+                console.log('jquery is downloaded');
+            }, 600);
+        </script>
+        <script type="text/javascript" src="./variants.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="./main.css" rel="stylesheet">
+        <link href="./klopp.css" rel="stylesheet">
+        <link href="./share.css" rel="stylesheet">
+    </head>
+    <body class="klopp-body">
+        <div class="klopp-wrapper" id="klopp-wrapper">
+            <div class="klopp-text-block">
+                <div class="klopp-highlight">
+                    Какой же Клопп
+                </div>
+                <div class="klopp-result">
+                    <canvas id="klopp-canvas" class='klopp-result__canvas'></canvas>
+                </div>
+            </div>
+            <div class="klopp-control">
+                <p class="klopp-description">«Какой же Клопп крутой» – фраза, которую мы повторяем весь год. Пришло
+                    время ее немного
+                    переделать.</p>
+                <button class="klopp-control__button klopp-js-trigger">
+                    <span class="klopp-control__button-text klopp-js-stop">
+                        Остановить
+                    </span>
+                    <span class="klopp-control__button-text klopp-js-more klopp-is-hidden">
+                        <span class="klopp-control__button-icon"></span>
+                        Еще раз
+                    </span>
+                </button>
+            </div>
+        </div>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

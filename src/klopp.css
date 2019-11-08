@@ -1,0 +1,181 @@
+
+.klopp-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.klopp-wrapper {
+    font-family: 'Roboto', sans-serif;
+    background-color: #232227;
+    background-image: url('img/bg.png');
+    color: #fff;
+    width: 100%;
+    height: 470px;
+    background-size: cover;
+    background-position: 50% 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.klopp-highlight {
+    color: #FF003C;
+    line-height: 44px;
+    margin-bottom: 12px;
+}
+
+.klopp-btn-facebook {
+    background-image: url(img/fb.svg);
+}
+.klopp-btn-vk {
+    background-image: url(img/vk.svg);
+}
+.klopp-btn-twitter {
+    background-image: url(img/twi.svg);
+}
+.klopp-btn-telegram {
+    background-image: url(img/tele.svg);
+}
+
+.klopp-text-block {
+    flex-basis: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.klopp-result {
+    background-image: url(img/rect.svg);
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    background-size: 100% 58px;
+    background-position: 0 0;
+    height: 58px;
+    line-height: 58px;
+    position: relative;
+}
+
+.klopp-description {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 11px;
+    text-align: center;
+    max-width: 496px;
+}
+.klopp-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.klopp-control__button {
+    background-color: #FF003C;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    height: 48px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.klopp-control__button-text {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    line-height: 1;
+}
+
+.klopp-control__button-icon {
+    background-image: url(img/reload.svg);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.klopp-is-hidden {
+    display: none;
+}
+
+.klopp-social {
+    margin-bottom: 39px;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 480px) {
+    .klopp-text-block {
+        font-size: 28px;
+    }
+    .klopp-description {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .klopp-highlight {
+        line-height: 33px;
+    }
+}
+
+@keyframes highlight {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.klopp-result__canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .4s;
+    will-change: filter;
+}
+
+.klopp-result__canvas.klopp-has-blur {
+    filter: blur(3px);
+}
+
+.klopp-js-result {
+    opacity: 0.5;
+}

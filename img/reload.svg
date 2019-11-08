@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="18px" viewBox="0 0 21 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="klopp" transform="translate(-1201.000000, -710.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M1213,710 C1208.03,710 1204,714.03 1204,719 L1201,719 L1205,723 L1209,719 L1206,719 C1206,715.135 1209.135,712 1213,712 C1216.865,712 1220,715.135 1220,719 C1220,722.865 1216.865,726 1213,726 C1211.485,726 1210.09,725.515 1208.94,724.695 L1207.525,726.13 C1209.045,727.3 1210.94,728 1213,728 C1217.97,728 1222,723.97 1222,719 C1222,714.03 1217.97,710 1213,710 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
